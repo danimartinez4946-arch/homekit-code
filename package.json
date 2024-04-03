@@ -41,7 +41,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "prepare": "husky install",
+    "prepare": "husky",
     "release": "dotenv semantic-release --no-ci",
     "release:ci": "semantic-release",
     "release:dry-run": "npm run release -- --dry-run",
